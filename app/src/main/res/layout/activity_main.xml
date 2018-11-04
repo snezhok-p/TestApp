@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:theme="?attr/actionBarTheme"-->
+        <!--android:contentInsetLeft="0dp"-->
+        <!--android:contentInsetStart="0dp"-->
+        <!--app:contentInsetLeft="0dp"-->
+        <!--app:contentInsetStart="0dp"-->
+        <!--android:contentInsetRight="0dp"-->
+        <!--android:contentInsetEnd="0dp"-->
+        <!--app:contentInsetRight="0dp"-->
+        <!--app:contentInsetEnd="0dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--<android.support.v7.widget.SearchView-->
+            <!--android:id="@+id/search"-->
+            <!--style="@style/mySearchView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_margin="0dp"-->
+            <!--android:focusable="true"-->
+            <!--android:focusableInTouchMode="true"-->
+            <!--android:padding="0dp"-->
+            <!--android:queryHint="@string/search"-->
+            <!--tools:layout_editor_absoluteX="16dp"-->
+            <!--tools:layout_editor_absoluteY="4dp" />-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_margin="3dp"/>
+
+</android.support.constraint.ConstraintLayout>
